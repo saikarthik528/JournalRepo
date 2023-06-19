@@ -1,0 +1,25 @@
+Journal application :
+
+Features :
+
+1. I should be able to login into the application
+2. Add text(rich-text) for a particular day - can add multiple
+3. Should show list of dates with notes appended to it
+4. Should have couple of views - calendar view / just notes along with dates sorted
+
+
+Tables :
+
+1. Notes table :
+	- Note
+	- Date
+	- CreatedOn
+	- UpdatedOn
+
+2. User table :
+	- Username
+	- SignedUpOn
+	- PasswordSalt
+	- Password Hash
+	- Email
+
