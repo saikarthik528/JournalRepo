@@ -11,7 +11,8 @@ Features :
 Tables :
 
 1. Notes table :
-	- Note
+	- NoteHeading
+	- NoteBody
 	- Date
 	- CreatedOn
 	- UpdatedOn
@@ -20,6 +21,6 @@ Tables :
 	- Username
 	- SignedUpOn
 	- PasswordSalt
-	- Password Hash
+	- PasswordHash
 	- Email
 
