@@ -21,6 +21,11 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	compileOnly("org.projectlombok:lombok:1.18.28")
+	annotationProcessor( "org.projectlombok:lombok:1.18.28")
+	testCompileOnly( "org.projectlombok:lombok:1.18.28")
+	testAnnotationProcessor("org.projectlombok:lombok:1.18.28")
 }
 
 tasks.withType<Test> {
